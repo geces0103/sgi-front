@@ -1,0 +1,1 @@
+export const URL_APP = process.env.REACT_APP_CUSTOM_NODE_ENV

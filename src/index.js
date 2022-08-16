@@ -1,0 +1,25 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Provider } from 'react-redux';
+import { legacy_createStore as createStore, applyMiddleware } from 'redux';
+import promise from 'redux-promise';
+import storeRedux from './StoreApp';
+
+
+const store = applyMiddleware(promise)(createStore)(storeRedux)
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
+
+reportWebVitals();

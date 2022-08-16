@@ -1,0 +1,11 @@
+{
+    "realm": "sgi",
+    "auth-server-url": "http://54.226.71.50/auth/",
+    "ssl-required": "none",
+    "resource": "sgi-fe",
+    "verify-token-audience": true,
+    "use-resource-role-mappings": true,
+    "confidential-port": 0,
+    "policy-enforcer": {},
+    "enable-cors": false
+  }

@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container-fluid {
+  margin: 5px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.navbar-collapse {
+  padding-left: 50px;
+  margin: 0px;
+}
+
+.component-table {
+  margin: 50px 50px 50px 50px;
+}
+
+.component-create {
+  margin: 50px 50px 50px 50px;
+}
+
+.table-style-product {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "sans-serif";
+  color: #605E5C;
+  font-size: 14px;
+  border: 0px;
+}
+
+.icon-table-user {
+    color: black;
+    margin-left: 10px;
+}
+
+.btn-optional-table-product:hover, .tr-optional-table-product {
+    width: auto;
+    height: auto;
+    color: #605E5C;
+    padding: 8px;
+    margin: 0;
+    border: none;
+    visibility: visible;
+}
+
+.btn-optional-table-product {
+    width: auto;
+    height: auto;
+    color: #605E5C;
+    background-color: rgba(133, 131, 130, 0.592);
+    padding: 8px;
+    border: none;
+    margin: 0;
+    visibility: hidden;
+}
+
+.tr-optional-table-product:hover .btn-optional-table-product {
+    visibility: visible;
+}
+
+.container-fluid-login {
+  margin-top: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.button-style-user {
+  margin: 0px;
+}
