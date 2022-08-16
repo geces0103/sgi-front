@@ -1,5 +1,15 @@
 # Getting Started with Create React App
 
+Login keycloak:
+http://54.226.71.50/
+admin
+
+Login SGI:
+34.233.124.236
+
+sgi-user
+123@sgi
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
